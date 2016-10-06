@@ -33,7 +33,7 @@ Inside the scaffold, you will find:
 ```
 .
 |-- game
-|   `-- main.coffee
+|   `-- main.ls
 |-- html
 |   `-- index.html
 |-- img
@@ -44,7 +44,7 @@ Inside the scaffold, you will find:
 `-- package.json
 ```
 
-- `game/main.coffee`: The main entry point for your game. Contains a skeleton of a Raconteur story.
+- `game/main.ls`: The main entry point for your game. Contains a skeleton of a Raconteur story.
 - `html/index.html`: The html page for your story.
 - `img/`: This directory holds all of your game's image assets. Anything with the .png or .jpeg extensions, in this folder (including subfolders), will be copied over to `build/img/` or `dist/img/` when you build your game, so that the relative path for all of your images will be `img/image.png` and so on.
 - `less/`: Holds your Less files. `less/main.less` is the entry point for Less; all other files have to be imported by this file. `less/mobile.less` has mobile-specific definitions, but you're free to reorganise these files as you like.
